@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secret Library Genres</title>
+
+        <!--FOR STYLING-->
+        <style>
+            * {
+                font-family: "Georgia", sans-serif;
+                    margin: 0;
+                    padding: 0;
+            }
+
+            body {
+                background-image: url(background/librarybg.jpg);
+                background-size: cover;
+                text-align: center;
+            }
+            
+            h1 {
+                margin-top: 50px;
+                font-size: 8vh;
+                color: aliceblue;
+                text-shadow: -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px  1px 0 #000,
+                    1px  1px 0 #000;
+                }
+            
+            p {
+                margin-top: 50px;
+                margin-bottom: 20px;
+                font-size: 4vh;
+                color: aliceblue;
+                text-shadow: -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px  1px 0 #000,
+                    1px  1px 0 #000;
+            }
+
+            .book, .book2, .book3 {
+                display: inline-block;
+                width: 280px;
+                margin: 20px;
+                padding: 30px;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            }
+
+            .book img, .book2 img, .book3 img{
+                max-width: 100%;
+                height: auto;
+            }
+
+            .book-title, .book-title2, .book-title3 {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+            .book-description, .book-description2, .book-description3 {
+                margin-top: 5px;
+                font-size: 14px;
+                color: #555;
+            }
+            
+        </style>
+    </head>
+
+    <!--WEBSITE DETAILS-->
+    <body>
+        <h1>Welcome to the Secret Library</h1>
+        <p>Choose genre to begin your journey into the world of knowledge!</p>
+
+        <div class="book">
+            <a href="mysteryStories.html">
+                <img src="background/mystery-cover.jpg" alt="Book Cover">
+                <div class="book-title">Mystery and Detective</div>
+            </a>
+
+            <div class="book-description">Solve thrilling mysteries and uncover hidden secrets.</div>
+        </div>
+
+        <div class="book2">
+            <a href="fantasyStories.html">
+                <img src="background/fantasy-cover.jpg" alt="Book Cover">
+                <div class="book-title2">Fantasy and Magic</div>
+            </a>
+
+            <div class="book-description2">Immerse yourself in legendary quests and mythical landscapes.</div>
+        </div>
+
+        <div class="book3">
+            <a href="scienceFictionStories.html">
+                <img src="background/sciencefiction-cover.jpg" alt="Book Cover">
+                <div class="book-title3">Science Fiction</div>
+            </a>
+
+            <div class="book-description3">Travel to distant planets and witness futuristic technologies.</div>
+        </div>
+    </body>
+</html>
